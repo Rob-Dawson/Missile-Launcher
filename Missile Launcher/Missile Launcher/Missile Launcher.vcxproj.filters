@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{71e76b16-58bc-4a95-bdca-cab5f38d4d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Cube">
+      <UniqueIdentifier>{723c1280-4204-4b45-8c41-1ed583e15d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Moon">
+      <UniqueIdentifier>{f54a3be6-11ca-45ec-ab60-c3175f46cbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Rocket">
+      <UniqueIdentifier>{16a86f5e-2154-45c2-939b-607530d66805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Sky">
+      <UniqueIdentifier>{a48e78c0-7b17-44c0-b702-ac01a5c1057c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Sun">
+      <UniqueIdentifier>{34b261b7-dec1-49ad-9eb2-db98db3941e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Launcher">
+      <UniqueIdentifier>{580b8879-e0ec-4a1e-93bb-df8e66ac0d08}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Moon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Launcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Moon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Cube.fx">
+      <Filter>Shaders\Cube</Filter>
+    </FxCompile>
+    <FxCompile Include="CubePixelShader.hlsl">
+      <Filter>Shaders\Cube</Filter>
+    </FxCompile>
+    <FxCompile Include="CubeVertexShader.hlsl">
+      <Filter>Shaders\Cube</Filter>
+    </FxCompile>
+    <FxCompile Include="Moon.fx">
+      <Filter>Shaders\Moon</Filter>
+    </FxCompile>
+    <FxCompile Include="MoonPixelShader.hlsl">
+      <Filter>Shaders\Moon</Filter>
+    </FxCompile>
+    <FxCompile Include="MoonVertexShader.hlsl">
+      <Filter>Shaders\Moon</Filter>
+    </FxCompile>
+    <FxCompile Include="Rocket.fx">
+      <Filter>Shaders\Rocket</Filter>
+    </FxCompile>
+    <FxCompile Include="RocketPixelShader.hlsl">
+      <Filter>Shaders\Rocket</Filter>
+    </FxCompile>
+    <FxCompile Include="RocketVertexShader.hlsl">
+      <Filter>Shaders\Rocket</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyMap.fx">
+      <Filter>Shaders\Sky</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyMapPixelShader.hlsl">
+      <Filter>Shaders\Sky</Filter>
+    </FxCompile>
+    <FxCompile Include="SkyMapVertexShader.hlsl">
+      <Filter>Shaders\Sky</Filter>
+    </FxCompile>
+    <FxCompile Include="Sun.fx">
+      <Filter>Shaders\Sun</Filter>
+    </FxCompile>
+    <FxCompile Include="SunPixelShader.hlsl">
+      <Filter>Shaders\Sun</Filter>
+    </FxCompile>
+    <FxCompile Include="SunVertexShader.hlsl">
+      <Filter>Shaders\Sun</Filter>
+    </FxCompile>
+    <FxCompile Include="Launcher.fx">
+      <Filter>Shaders\Launcher</Filter>
+    </FxCompile>
+    <FxCompile Include="LauncherPixelShader.hlsl">
+      <Filter>Shaders\Launcher</Filter>
+    </FxCompile>
+    <FxCompile Include="LauncherVertexShader.hlsl">
+      <Filter>Shaders\Launcher</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

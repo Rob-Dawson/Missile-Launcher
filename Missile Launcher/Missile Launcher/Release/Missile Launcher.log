@@ -1,0 +1,5 @@
+﻿main.obj : error LNK2001: unresolved external symbol "public: void __cdecl DirectX::Keyboard::Reset(void)" (?Reset@Keyboard@DirectX@@QAAXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: struct DirectX::Keyboard::State __cdecl DirectX::Keyboard::GetState(void)const " (?GetState@Keyboard@DirectX@@QBA?AUState@12@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: __thiscall DirectX::Keyboard::Keyboard(void)" (??0Keyboard@DirectX@@QAE@XZ)
+Window.obj : error LNK2001: unresolved external symbol "public: static void __cdecl DirectX::Keyboard::ProcessMessage(unsigned int,unsigned int,long)" (?ProcessMessage@Keyboard@DirectX@@SAXIIJ@Z)
+C:\Temp\Missile Launcher\Release\Missile Launcher.exe : fatal error LNK1120: 4 unresolved externals
